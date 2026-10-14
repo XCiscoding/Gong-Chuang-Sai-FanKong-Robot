@@ -1,0 +1,19 @@
+# Generated firmware and host-test outputs
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.o
+*.d
+*.su
+*.exe
+
+# Local IDE and operating-system files
+.metadata/
+.idea/
+.vscode/
+*.user
+*.bak
+Thumbs.db
+Desktop.ini
