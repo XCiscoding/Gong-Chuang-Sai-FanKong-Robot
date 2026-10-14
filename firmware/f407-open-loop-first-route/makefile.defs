@@ -1,0 +1,26 @@
+# Include the new module before CubeIDE has regenerated its source inventory.
+# Once the IDE lists this object itself, this fallback becomes inactive.
+ifeq ($(filter ./Core/Src/chassis_path.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/chassis_path.o
+-include Core/Src/chassis_path.d
+endif
+
+# Source inventory fallback; inactive once CubeIDE lists the new modules.
+ifeq ($(filter ./Core/Src/imu_ms901m.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/imu_ms901m.o
+-include Core/Src/imu_ms901m.d
+endif
+ifeq ($(filter ./Core/Src/imu_ms901m_parser.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/imu_ms901m_parser.o
+-include Core/Src/imu_ms901m_parser.d
+endif
+
+ifeq ($(filter ./Core/Src/pid_position.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/pid_position.o
+-include Core/Src/pid_position.d
+endif
+
+ifeq ($(filter ./Core/Src/chassis_heading.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/chassis_heading.o
+-include Core/Src/chassis_heading.d
+endif

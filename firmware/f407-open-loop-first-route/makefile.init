@@ -1,0 +1,4 @@
+# Use Windows command execution for CubeIDE's bundled GNU Make.
+SHELL := cmd.exe
+.SHELLFLAGS := /c
+.ONESHELL:

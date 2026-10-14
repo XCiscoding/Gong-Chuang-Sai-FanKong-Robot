@@ -1,0 +1,20 @@
+# STM32CubeIDE / Eclipse generated build outputs
+**/Debug/
+**/Release/
+**/.metadata/
+*.o
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+*.user
+*.bak
+Thumbs.db
+Desktop.ini
