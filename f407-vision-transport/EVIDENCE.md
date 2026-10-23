@@ -30,8 +30,12 @@ Static/build tests do not establish physical UART or camera acceptance.
 
 ## Exact deliverables
 
-- K230 script SHA256:
-  `BD96A0DB88E6D8CBB961EB5A50599656E73899786945A59D25F76274A324E59C`
+- Current K230 TRACK script SHA256:
+  `36BBFF06F906017E054532471CCC7DF583655595C892C0774C4FE813EFC45C97`
+  (`../../k230/line_track_uart.py`). The historic K230 source snapshot used
+  during the original adapter build had SHA256
+  `BD96A0DB88E6D8CBB961EB5A50599656E73899786945A59D25F76274A324E59C`;
+  do not treat that older hash as the current runtime-script identity.
 - UART probe SHA256:
   `627297D6B00068552E76E8F7EF73D13741AAE0DF270D1BAAEB27238C4636D857`
 - ELF SHA256:
