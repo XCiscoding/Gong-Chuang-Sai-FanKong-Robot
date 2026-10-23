@@ -8,6 +8,8 @@
 *.d
 *.su
 *.exe
+__pycache__/
+*.pyc
 
 # Local IDE and operating-system files
 .metadata/
