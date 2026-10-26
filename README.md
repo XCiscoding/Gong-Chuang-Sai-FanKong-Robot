@@ -31,4 +31,6 @@ python tools/check_k230_track_protocol.py --source k230/line_track_uart.py
 - `ZiMing/Vision`：F407 视觉传输与运动侧接口（当前分支）。
 - `ZiMing/Motor`：X42S 电机、底盘运动和停车安全链。
 - `ZiMing/Arm`：机械臂模块获得独立源码后建立。
-- `main`：仅收录跨模块实车验证完成的集成版本。
+- `main`：项目当前可复现的正式代码与合同基线；每次实物结论必须在状态回执中明确标为已验证、未验证或阻塞，不能因进入主线而被冒充为实车通过。
+
+分支按模块承担开发与审查，`main`承担测试前统一的可复现入口。完整边界见 `REPOSITORY_MAP.md`。
